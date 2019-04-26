@@ -1,4 +1,4 @@
-## NYU-CV-Fall-2018
+## Computer Vision
 
 ### Assignment 2: Traffic sign competition
 
@@ -19,13 +19,3 @@ Modify `main.py`, `model.py` and `data.py` for your assignment, with an aim to m
 - By default the images are loaded and resized to 32x32 pixels and normalized to zero-mean and standard deviation of 1. See data.py for the `data_transforms`.
 - By default a validation set is split for you from the training set and put in `[datadir]/val_images`. See data.py on how this is done.
 
-#### Evaluating your model on the test set
-
-As the model trains, model checkpoints are saved to files such as `model_x.pth` to the current working directory.
-You can take one of the checkpoints and run:
-
-```
-python evaluate.py --data [data_dir] --model [model_file]
-```
-
-That generates a file `gtsrb_kaggle.csv` that you can upload to the private kaggle competition https://www.kaggle.com/c/nyu-cv-fall-2018/ to get onto the leaderboard.
